@@ -1,0 +1,1 @@
+java -D"file.encoding=utf-8" -cp "./libs/*" net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader

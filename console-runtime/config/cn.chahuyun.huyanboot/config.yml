@@ -1,0 +1,6 @@
+# 端口号
+port: 9552
+# 是否开启语音消息推送
+audioStatus: false
+# 语音消息推送地址
+audioUrl: 'http://127.0.0.1:9550/msg'

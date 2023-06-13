@@ -1,0 +1,27 @@
+adapters: 
+  - http
+  - webhook
+debug: false
+enableVerify: true
+verifyKey: INITKEY51FSDeVs
+singleMode: false
+cacheSize: 4096
+persistenceFactory: 'built-in'
+adapterSettings: 
+  ## 详情看 http adapter 使用说明 配置
+  http:
+    host: 0.0.0.0
+    port: 9551
+    cors: ["*"]
+    unreadQueueMaxSize: 100
+  
+  ## 详情看 websocket adapter 使用说明 配置
+  webhook:
+    ## 回调(上报)地址
+    destinations: 
+    - '127.0.0.1:9550/msg'
+
+    ## 额外自定义请求头
+    extraHeaders:
+      Authorization: 'tsfuck SV*(&*(SH@ID^G'
+

@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jun 12 23:00:31 CST 2023
+hutool-all-5.8.6.jar>https\://maven.aliyun.com/repository/central=
+hutool-all-5.8.6.pom>https\://maven.aliyun.com/repository/central=
